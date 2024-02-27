@@ -8,12 +8,18 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2%;
     background-color: #1a7fb9;
     color: #fff;
     display: flex;
+}
+
+#nav h1{
+    color: black;
+    font-size: 45px;
+    
 }
 
 #nav ul {
