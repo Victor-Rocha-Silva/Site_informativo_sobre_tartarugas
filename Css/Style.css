@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 25px;
-    background-color: white;
+    background-color: #EAE0AC;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
 
 #nav ul li {
     display: inline-block;
+    margin-right: 15%;
 }
 
 #nav ul li a {
@@ -33,7 +34,7 @@ body {
 }
 
 #nav ul li a:hover {
-    color: red;
+    color: blue;
 }
 
 .section {
@@ -82,3 +83,4 @@ ul{
     text-align: center;
     font-style: oblique;
 }
+
