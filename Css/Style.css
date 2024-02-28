@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -31,12 +30,14 @@ body {
 }
 
 .fixed #logo {
-    font-size: 20px;
+    font-size: 25px;
 }
+
 
 h1{
     font-size: 1%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -51,7 +52,7 @@ h3{
 }
 
 p{
-    font-size: 95%;
+    font-size: 25px;
     margin-left: 2%;
 }
 
@@ -73,7 +74,9 @@ nav ul li{
     display: inline-block;
     position: relative;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 nav a{
@@ -110,4 +113,9 @@ nav ul ul ul{
 nav p{
     display: inline-block;
     font-size: 25px;
+}
+
+nav{
+    margin-left: 1410px;
+    display: flex;
 }
