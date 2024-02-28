@@ -120,3 +120,7 @@ nav{
     display: flex;
     display: block;
 }
+
+.img2{
+    justify-content: center;
+}
