@@ -118,4 +118,5 @@ nav p{
 nav{
     margin-left: 1410px;
     display: flex;
+    display: block;
 }
