@@ -1,126 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-color: #EAE0AC;
 }
 
-.container {
-    display: flex;
-    align-items: center;
+input[type="checkbox"]:checked~nav {
+    transform: translateX(350px);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 8px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+nav {
     background-color: #1a7fb9;
-    color: #fff;
-    display: flex;
+    opacity:90%;
+    width: 350px;
+    height: 20%;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
 }
 
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
+ul {
+    list-style: n;
+    position: absolute;
+    top: 50px;
     width: 100%;
-    background-color: #333;
-    z-index: 1000;
-    transition: background-color 0.3s;
 }
 
-.fixed #logo {
-    font-size: 25px;
+label {
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
 }
 
+header {
+    background-color: #1a7fb9;
+    color: white;
+    font-size: 45;
+}
 
-h1{
-    font-size: 1%;
+header img{
+    margin-left: 95%;
+}
+
+header h1{
+    position: absolute;
+    left: 45%;
+}
+
+h1 {
+
+    font-size: 150%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2{
+h2 {
+    margin-right: 20px;
     font-size: 140%;
     text-align: center;
     align-items: center;
 }
 
-h3{
-    margin-left: 1%;
+h3 {
+    margin-left: 2%;
     font-size: 130%;
 }
 
-p{
+p {
     font-size: 25px;
     margin-left: 2%;
 }
 
-ul{
-    font-size: 80%;
-    text-align: center;
-    font-style: oblique;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    background-color: #1a7fb9;
-}
-
-nav ul li{
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-nav a{
-    color: #ffffff;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-}
-
-
-nav ul ul{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #1a7fb9;
-}
-
-nav ul ul li{
-    display: block;
-    text-align: center;
-}
-
-nav ul li:hover>ul{
-    display: inherit;
-}
-
-nav ul ul ul{
-    left: 100%;
-    top: 0;
-}
-
-nav p{
-    display: inline-block;
-    font-size: 25px;
-}
-
-nav{
-    margin-left: 1410px;
-    display: flex;
-    display: block;
-}
-
-.img2{
-    justify-content: center;
+img{
+    margin-left: 34%;
 }
