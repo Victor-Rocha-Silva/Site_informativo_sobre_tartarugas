@@ -1,22 +1,27 @@
+/* Define margens e preenchimentos padrão para todos os elementos */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilos gerais para o corpo da página */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-color: #EAE0AC;
 }
 
+/* Estilos para mostrar/esconder o menu de navegação quando a caixa de seleção é marcada */
 input[type="checkbox"]:checked~nav {
     transform: translateX(350px);
 }
 
+/* Esconde a caixa de seleção padrão */
 input[type="checkbox"] {
     display: none;
 }
 
+/* Estilos básicos para links */
 a {
     text-decoration: none;
     color: black;
@@ -26,72 +31,86 @@ a {
     color: white;
 }
 
+/* Estilos para links quando o mouse está sobre eles */
 a:hover {
     background-color: blue;
 }
 
+/* Estilos para o menu de navegação */
 nav {
     background-color: #1a7fb9;
-    opacity:90%;
+    opacity: 90%;
     width: 350px;
-    height: 20%;
+    height: 25%;
     left: -350px;
     position: absolute;
     transition: all 0.5s;
 }
 
+/* Estilos para listas não ordenadas dentro do menu de navegação */
 ul {
-    list-style: n;
+    list-style: none;
     position: absolute;
     top: 50px;
     width: 100%;
 }
 
+/* Estilos para rótulos (labels) usados provavelmente para associar com a caixa de seleção */
 label {
     padding: 10px;
     position: absolute;
     z-index: 1;
 }
 
+/* Estilos para o cabeçalho da página */
 header {
     background-color: #1a7fb9;
     color: white;
     font-size: 45;
 }
 
-header img{
+/* Estilos para a imagem dentro do cabeçalho */
+header img {
     margin-left: 95%;
 }
 
-header h1{
+/* Estilos para o título do cabeçalho */
+header h1 {
     position: absolute;
     left: 45%;
 }
 
+/* Estilos para títulos de nível 1 (h1) */
 h1 {
-
     font-size: 150%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Estilos para títulos de nível 2 (h2) */
 h2 {
-    margin-right: 20px;
     font-size: 140%;
     text-align: center;
-    align-items: center;
 }
 
+/* Estilos para títulos de nível 3 (h3) */
 h3 {
     margin-left: 2%;
     font-size: 130%;
 }
 
+/* Estilos para parágrafos */
 p {
     font-size: 25px;
     margin-left: 2%;
 }
 
-img{
+/* Estilos para imagens */
+img {
     margin-left: 34%;
+}
+
+footer{
+    margin-top: 2%;
+    text-align: center;
 }
